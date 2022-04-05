@@ -1,0 +1,135 @@
+<!DOCTYPE HTML5>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- here we are not getting events on btn 3 and btn 4 bcz it is used before loading the loading so we will be using document ready fnc. it will tell the interpreter that run those files under this when the documents get ready. -->
+<script>
+    $("#btn3").click(function(){
+
+    alert("Button 3 Clicked  ")
+  });
+
+  $("#btn2").click(function(){
+    alert("HELLO YOU CLICKED BUTTON 4")
+
+  });
+
+    </script>
+    
+
+    <title>JQUERY CRASH COURSE and SELECTOR</title>
+    <style>
+      body {
+        font-size: 17px;
+        font-family: arial;
+        background: #f4f4f4;
+        line-height: 1.5em;
+      }
+
+      header {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 4px #000 solid;
+        margin-bottom: 10px;
+      }
+      #container {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>JQUERY CRASH COURSE</h1>
+    </header>
+    
+
+
+    <div id="container">
+    <h1 id="heading1" heading1>Heading 1</h1>
+    <p class="para1">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit pariatur
+      ipsam ducimus aliquam ab delectus autem?
+      <span> HELLO Corporis ipsa error nisi, ducimus officiis obcaecati</span> quaerat
+      nulla, fugiat numquam adipisci saepe commodi!
+    </p>
+
+    <h2 class="heading2">Heading 2</h1>
+      <p class="para2"> Lorem ipsum dolor sit amet consectetur adipisicing <span> Here was satyam at 12am doing some coding </span>elit. Sed iste autem ullam odit unde quibusdam accusantium debitis ea facere beatae.</p>
+      <ul id="list1">
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+      </ul>
+
+      <input type="button1" value="button1">
+      <input type="submit" value="submit1 ">
+      <input type="text">
+
+      <a href="https://goggle.com" id="goggle">google</a>
+      <a href="https:\\yahoo.com" id="yahoo">yahoo</a>
+
+      <h3>MOUSE EVENTs </h3>
+      <button id="btn1">Button1</button>
+      <button id="btn2">Button2</button>
+      <button id="btn3">Button3</button>
+      <button id="btn4">Button4</button>
+
+      </div>
+
+    <script>
+      // here we will add javascript code(jquery codes.)
+    //  $("h1").hide();
+    //  $("h1.heading1").hide();
+    //  $("h2.heading2").hide();
+    //  $("h2.heading2").hide();
+    // $("p.para1").hide();
+    // $("p.para2").hide();
+  //   $("p span").css("color","red");
+  //   $("li").css("color","green");
+  //   $(" ul#list1 li:first").css("color","blue");
+  //   $(" ul#list1 li:even").css("background-color","#ccc");
+  //   $(" ul#list1 li:odd").css("color","cyan");
+  //   $(" ul#list1 li:nth-child(3n").css("color","red");
+  //   $("ul#list1").css("list-style","none");
+
+  //   $(":button").hide();
+  //   $(":submit").hide();
+  //   $(":text").css({border: "3px solid red" });
+  //   $("[href]").css('color','green');
+  //   $("a[href]#yahoo").css('color','cyan');
+  //   //$("*").hide(); hides all the content.
+ 
+  // USING MOUSE EVENTS:
+  $("#btn1").click(function(){
+
+    alert("Button Clicked ")
+  });
+
+  $("#btn2").click(function(){
+    alert("HELLO YOU CLICKED BUTTON 2")
+
+  });
+
+
+
+
+
+
+
+  
+
+
+
+    </script>
+  </body>
+</html>
